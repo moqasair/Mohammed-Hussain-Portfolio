@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;   
+  background-color: black; 
+  color: white;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin: 0px;
+  border: 0px;
+  align-items:center; 
+  background-color: black;
+  color:white; 
+  border: azure; 
+  border: solid; 
+  border: 1rem solid black
+  
+
+}  
+ .title { 
+  display: flex; 
+  align-items: center;
+  width: 100%; 
+  justify-content: center; 
+  margin: 0px;
+  border: 0px;
+  background-color: black;
+
+ }
+
+.hero-text h2 {
+  text-align: right;
+  color: white;
+}
+
+
+  
+
+.navbar a { 
+
+  color: white;
+}
+
+h1 {  
+  font-family: Arial, Helvetica, sans-serif; 
+  
+
+} 
+.image {
+  display: flex; 
+  
+  }
+
+.hero-banner { 
+  background-image:url(../images/02-hero-bg.jpg);
+  background-position: center; 
+  background-size: cover;
+  
+
+}
+
+.Work-title {
+  padding: 50px 0;
+
+} 
+
+------/*about section*/----- 
+#about { 
+  padding: 80px 80px;
+} 
+
+.row { 
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.image-1 { 
+  width: 100%;
+  height: 250px; 
+
+} 
+.Pre-Work-Study-Guide { 
+  margin-left:auto; 
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-container{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.grid-image { 
+  width: 100%;
+  height: 175px;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
